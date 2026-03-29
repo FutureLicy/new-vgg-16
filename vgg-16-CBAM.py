@@ -9,7 +9,6 @@ LEARNING_RATE = 0.0001
 EPOCH = 40
 N_CLASSES = 2
 
-
 # ==================== 新增：CBAM注意力模块 ====================
 class ChannelAttention(tnn.Module):
     """通道注意力模块：关注特征通道重要性"""
